@@ -264,7 +264,7 @@ function renderCards(){
       +'<div class="card-meta"><span class="meta-chip">'+m.questions+' Questions</span><span class="meta-chip">'+m.time+'</span></div>'
       +'<div class="card-meta">'+chips+'</div>'
       +'<div class="score-section">'+scoreHTML+'</div>'
-      +'<button class="card-btn" style="background:linear-gradient(135deg,'+m.color+','+m.color+'cc);" onclick="openExam(''+m.key+'')">'+btnLabel+'</button>'
+      +'<button class="card-btn" style="background:linear-gradient(135deg,'+m.color+','+m.color+'cc);" onclick="openExam(\''+m.key+'\')">'+btnLabel+'</button>'
       +'</div>';
     grid.appendChild(card);
   });
